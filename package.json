@@ -2,6 +2,7 @@
   "name": "tomtheme",
   "displayName": "TomTheme",
   "description": "",
+  "publisher": "tomcn0803",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.82.0"
