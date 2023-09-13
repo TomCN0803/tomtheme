@@ -2,6 +2,12 @@
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
 	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"enumMember:rust": "#66daff",
+		"operator.mutable:rust": {
+			"fontStyle": ""
+		}
+	},
 	"colors": {
 		"activityBar.activeBackground": "#36394700",
 		"activityBar.background": "#181818",
@@ -1071,6 +1077,13 @@
 			}
 		},
 		{
+			"scope": "entity.name.type.go",
+			"settings": {
+				"foreground": "#66DAFF",
+				"fontStyle": ""
+			}
+		},
+		{
 			"scope": [
 				"keyword.expressions-and-types.swift",
 				"keyword.other.this",
@@ -1437,7 +1450,7 @@
 			],
 			"settings": {
 				"foreground": "#66DAFF",
-				"fontStyle": "italic"
+				"fontStyle": ""
 			}
 		},
 		{
