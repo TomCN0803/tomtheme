@@ -8,6 +8,9 @@
 			"fontStyle": ""
 		},
 		"lifetime:rust": "#66daff",
+		"interface:rust": {
+			"fontStyle": ""
+		}
 	},
 	"colors": {
 		"activityBar.activeBackground": "#36394700",
