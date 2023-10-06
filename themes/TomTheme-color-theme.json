@@ -10,6 +10,9 @@
 		"lifetime:rust": "#66daff",
 		"interface:rust": {
 			"fontStyle": ""
+		},
+		"parameter.mutable": {
+			"fontStyle": "italic underline"
 		}
 	},
 	"colors": {
