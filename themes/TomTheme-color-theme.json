@@ -104,7 +104,7 @@
 		"editorInlayHint.background": "#4d4d4d99",
 		"editorInlayHint.foreground": "#ffffffae",
 		"editorLineNumber.activeForeground": "#ffffff",
-		"editorLineNumber.foreground": "#a6adad",
+		"editorLineNumber.foreground": "#656a6a",
 		"editorLink.activeForeground": "#57a0fd",
 		"editorMarkerNavigation.background": "#181c21",
 		"editorMarkerNavigationError.background": "#f9215d80",
