@@ -126,7 +126,7 @@
 		"editorWidget.background": "#212121",
 		"editorWidget.foreground": "#a6adad",
 		"editorWidget.resizeBorder": "#ceef49",
-		"focusBorder": "#00000000",
+		"focusBorder": "#ceef49",
 		"foreground": "#a6adad",
 		"gitDecoration.addedResourceForeground": "#94d6a0",
 		"gitDecoration.conflictingResourceForeground": "#8282ee",
