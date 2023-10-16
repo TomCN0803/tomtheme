@@ -701,7 +701,7 @@
 		//"symbolIcon.booleanForeground": "#a6adad",
 		//"symbolIcon.classForeground": "#ee9d28",
 		//"symbolIcon.colorForeground": "#a6adad",
-		"symbolIcon.constantForeground": "#948ae3",
+		"symbolIcon.constantForeground": "#e777fa",
 		//"symbolIcon.constructorForeground": "#b180d7",
 		//"symbolIcon.enumeratorForeground": "#ee9d28",
 		//"symbolIcon.enumeratorMemberForeground": "#75beff",
@@ -1174,7 +1174,7 @@
 				"variable.other.constant"
 			],
 			"settings": {
-				"foreground": "#948ae3"
+				"foreground": "#e777fa"
 			}
 		},
 		{
@@ -1737,7 +1737,7 @@
 		{
 			"scope": "constant.other.time",
 			"settings": {
-				"foreground": "#948AE3"
+				"foreground": "#e777fa"
 			}
 		},
 		{
