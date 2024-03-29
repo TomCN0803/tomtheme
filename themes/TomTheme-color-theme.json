@@ -1058,12 +1058,6 @@
 			}
 		},
 		{
-			"scope": "entity.name.function.preprocessor",
-			"settings": {
-				"foreground": "#66DAFF"
-			}
-		},
-		{
 			"scope": [
 				"entity.name.directive.restructuredtext",
 				"markup.quote"
@@ -1964,10 +1958,21 @@
 			}
 		},
 		{
-			"scope": "support.type.property-name",
+			"scope": [
+				"support.function",
+				"support.type.property-name"
+			],
 			"settings": {
-				"foreground": "#FFFFFF",
-				"fontStyle": "normal"
+				"fontStyle": "regular"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.support.type.property-name.begin",
+				"punctuation.support.type.property-name.end"
+			],
+			"settings": {
+				"foreground": "#66DAFF"
 			}
 		},
 		{
