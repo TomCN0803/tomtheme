@@ -4,6 +4,7 @@
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"enumMember:rust": "#66daff",
+		"attributeBracket.attribute:rust": "#FC618D",
 		"operator.mutable:rust": {
 			"fontStyle": ""
 		},
@@ -1081,7 +1082,7 @@
 			"scope": "entity.other.inherited-class",
 			"settings": {
 				"foreground": "#66DAFF",
-				"fontStyle": "italic"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -1130,7 +1131,7 @@
 			"scope": "entity.other.attribute-name",
 			"settings": {
 				"foreground": "#66DAFF",
-				"fontStyle": "italic"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -1205,12 +1206,6 @@
 			"scope": "entity.name.type.rust",
 			"settings": {
 				"foreground": "#66DAFF"
-			}
-		},
-		{
-			"scope": "entity.name.lifetime.rust",
-			"settings": {
-				"foreground": "#FC618D"
 			}
 		},
 		{
@@ -1289,26 +1284,6 @@
 			"scope": "keyword.other.parenthesis.elm",
 			"settings": {
 				"foreground": "#8B888F"
-			}
-		},
-		{
-			"scope": [
-				"keyword.other.fn.rust",
-				"keyword.other.rust",
-				"keyword.other.unsafe.rust",
-				"keyword.other.where.rust"
-			],
-			"settings": {
-				"foreground": "#66DAFF"
-			}
-		},
-		{
-			"scope": [
-				"keyword.control.rust",
-				"keyword.operator.misc.rust"
-			],
-			"settings": {
-				"foreground": "#FC618D"
 			}
 		},
 		{
@@ -1419,21 +1394,6 @@
 			}
 		},
 		{
-			"scope": [
-				"meta.function-call.generic.python",
-				"support.function.builtin.python"
-			],
-			"settings": {
-				"foreground": "#13FBA7"
-			}
-		},
-		{
-			"scope": "meta.function-call.python meta.function-call.arguments.python",
-			"settings": {
-				"foreground": "#FFFFFF"
-			}
-		},
-		{
 			"scope": "meta.instance.constructor",
 			"settings": {
 				"foreground": "#13FBA7"
@@ -1497,27 +1457,6 @@
 			}
 		},
 		{
-			"scope": "meta.type_params.rust",
-			"settings": {
-				"foreground": "#FFFFFF"
-			}
-		},
-		{
-			"scope": [
-				"meta.attribute.rust",
-				"meta.annotation.rust",
-				"variable.language.rust",
-				"variable.annotation.rust",
-				"meta.annotation.rust string",
-				"meta.annotation.rust keyword",
-				"meta.annotation.rust keyword.operator",
-				"meta.attribute.rust string"
-			],
-			"settings": {
-				"foreground": "#BAB6C0"
-			}
-		},
-		{
 			"scope": [
 				"meta.type variable",
 				"meta.type variable.other.readwrite"
@@ -1530,6 +1469,23 @@
 			"scope": "punctuation",
 			"settings": {
 				"foreground": "#8B888F"
+			}
+		},
+		{
+			"scope": [
+				"string.quoted.docstring.multi",
+				"string.quoted.docstring.multi.python punctuation.definition.string.begin",
+				"string.quoted.docstring.multi.python punctuation.definition.string.end",
+				"string.quoted.docstring.multi.python constant.character.escape"
+			],
+			"settings": {
+				"foreground": "#7E8392"
+			}
+		},
+		{
+			"scope": "punctuation.brackets.angle.rust",
+			"settings": {
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
@@ -1807,7 +1763,7 @@
 			"scope": "storage.type",
 			"settings": {
 				"foreground": "#66DAFF",
-				"fontStyle": "italic"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -1831,7 +1787,7 @@
 			],
 			"settings": {
 				"foreground": "#FC618D",
-				"fontStyle": "italic"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -1842,22 +1798,25 @@
 		},
 		{
 			"scope": [
-				"storage.modifier.visibility.rust",
-				"storage.modifier.lifetime.rust"
-			],
-			"settings": {
-				"foreground": "#FC618D"
-			}
-		},
-		{
-			"scope": [
-				"storage.modifier.const.rust",
-				"storage.modifier.dyn.rust",
-				"storage.modifier.mut.rust",
-				"storage.modifier.static.rust",
-				"storage.type.rust",
+				"entity.name.type",
+				"keyword.primitive-datatypes.swift",
+				"keyword.type.cs",
+				"meta.protocol-list.objc",
+				"meta.return-type.objc",
+				"source.go storage.type",
+				"source.groovy storage.type",
+				"source.java storage.type",
+				"source.powershell entity.other.attribute-name",
+				"storage.class.std.rust",
+				"storage.type.attribute.swift",
+				"storage.type.c",
 				"storage.type.core.rust",
-				"storage.class.std.rust"
+				"storage.type.cs",
+				"storage.type.groovy",
+				"storage.type.objc",
+				"storage.type.php",
+				"storage.type.haskell",
+				"storage.type.ocaml"
 			],
 			"settings": {
 				"foreground": "#66DAFF"
@@ -1865,20 +1824,20 @@
 		},
 		{
 			"scope": [
-				"storage.type.rust",
-				"storage.modifier.const.rust",
-				"storage.modifier.dyn.rust",
-				"storage.modifier.mut.rust",
-				"storage.modifier.static.rust",
-				"keyword.other.rust",
-				"keyword.other.where.rust"
+				"constant.other.symbol.hashkey.ruby",
+				"keyword.operator.dereference.java",
+				"keyword.operator.navigation.groovy",
+				"meta.scope.for-loop.shell punctuation.definition.string.begin",
+				"meta.scope.for-loop.shell punctuation.definition.string.end",
+				"meta.scope.for-loop.shell string",
+				"storage.modifier.import",
+				"punctuation.section.embedded.begin.tsx",
+				"punctuation.section.embedded.end.tsx",
+				"punctuation.section.embedded.begin.jsx",
+				"punctuation.section.embedded.end.jsx",
+				"punctuation.separator.list.comma.css",
+				"constant.language.empty-list.haskell"
 			],
-			"settings": {
-				"foreground": "#FC618D"
-			}
-		},
-		{
-			"scope": "storage.modifier.import.java",
 			"settings": {
 				"foreground": "#FFFFFF"
 			}
@@ -2075,8 +2034,6 @@
 		{
 			"scope": [
 				"variable.language",
-				"variable.parameter.function.language.special.self.python",
-				"variable.parameter.function.language.special.cls.python"
 			],
 			"settings": {
 				"foreground": "#BAB6C0",
