@@ -14,7 +14,8 @@
 		},
 		"parameter.mutable:rust": {
 			"fontStyle": "italic underline"
-		}
+		},
+		"function.defaultLibrary:go": "#66daff",
 	},
 	"colors": {
 		"activityBar.activeBackground": "#36394700",
@@ -702,7 +703,7 @@
 		//"symbolIcon.booleanForeground": "#a6adad",
 		//"symbolIcon.classForeground": "#ee9d28",
 		//"symbolIcon.colorForeground": "#a6adad",
-		"symbolIcon.constantForeground": "#e777fa",
+		"symbolIcon.constantForeground": "#BD93F9",
 		//"symbolIcon.constructorForeground": "#b180d7",
 		//"symbolIcon.enumeratorForeground": "#ee9d28",
 		//"symbolIcon.enumeratorMemberForeground": "#75beff",
@@ -887,7 +888,7 @@
 		{
 			"scope": "comment keyword.codetag.notation",
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
@@ -929,7 +930,7 @@
 		{
 			"scope": "constant",
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
@@ -941,46 +942,43 @@
 		{
 			"scope": "constant.other.caps",
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
-			"scope": [
-				"constant.other.placeholder.c",
-				"constant.other.placeholder.go"
-			],
+			"scope": "constant.other.placeholder",
 			"settings": {
-				"foreground": "#FD9353"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
 			"scope": "constant.other.property",
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
 			"scope": "constant.other.citation.latex",
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
 			"scope": "constant.other.color",
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
 			"scope": "constant.other.character-class.escape",
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
 			"scope": "constant.other.key",
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
@@ -998,19 +996,19 @@
 		{
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
@@ -1051,7 +1049,8 @@
 			"scope": [
 				"entity.name.type.class.templated",
 				"entity.name.type.class.generic",
-				"entity.name.type.namespace"
+				"entity.name.type.namespace",
+				"entity.name.function.support.builtin.go"
 			],
 			"settings": {
 				"foreground": "#66DAFF"
@@ -1060,7 +1059,7 @@
 		{
 			"scope": "entity.name.label",
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
@@ -1090,7 +1089,7 @@
 		{
 			"scope": "entity.name.constant",
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
@@ -1171,16 +1170,33 @@
 		{
 			"scope": [
 				"entity.name.function",
-				"support.function"
+				"meta.function-call.object",
+				"meta.function-call.php",
+				"meta.function-call.static",
+				"meta.method-call.java meta.method",
+				"meta.method.groovy",
+				"support.function.any-method.lua",
+				"keyword.operator.function.infix"
 			],
 			"settings": {
 				"foreground": "#13FBA7"
 			}
 		},
 		{
+			"scope": [
+				"entity.name.function.target.makefile",
+				"entity.name.section.toml",
+				"entity.name.tag.yaml",
+				"variable.other.key.toml"
+			],
+			"settings": {
+				"foreground": "#66DAFF"
+			}
+		},
+		{
 			"scope": "entity.other.git-status.hex",
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
@@ -1204,7 +1220,7 @@
 		{
 			"scope": "entity.name.operator.custom-literal.number",
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
@@ -1452,7 +1468,7 @@
 				"meta.preprocessor"
 			],
 			"settings": {
-				"foreground": "#9d93ed"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
@@ -1467,7 +1483,7 @@
 				"meta.type variable.other.readwrite"
 			],
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
@@ -1489,6 +1505,12 @@
 		},
 		{
 			"scope": "punctuation.brackets.angle.rust",
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"scope": "punctuation.other.colon.go",
 			"settings": {
 				"foreground": "#FFFFFF"
 			}
@@ -1594,7 +1616,7 @@
 				"meta.paragraph.markdown meta.hard-line-break.markdown"
 			],
 			"settings": {
-				"background": "#9D93ED"
+				"background": "#BD93F9"
 			}
 		},
 		{
@@ -1652,7 +1674,7 @@
 		{
 			"scope": "region.purplish",
 			"settings": {
-				"foreground": "#9D93ED",
+				"foreground": "#BD93F9",
 				"background": "#948AE359"
 			}
 		},
@@ -1705,7 +1727,7 @@
 		{
 			"scope": "source.git-show.commit.sha",
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
@@ -1726,7 +1748,7 @@
 				"source.git-show meta.diff.git-diff.header.extended.index.to-sha"
 			],
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
@@ -1784,7 +1806,7 @@
 		{
 			"scope": "storage.class.restructuredtext.ref",
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
@@ -1933,12 +1955,6 @@
 			}
 		},
 		{
-			"scope": "support.function",
-			"settings": {
-				"foreground": "#13FBA7"
-			}
-		},
-		{
 			"scope": "support.function.delimiter.elm",
 			"settings": {
 				"foreground": "#8B888F"
@@ -1990,7 +2006,7 @@
 		{
 			"scope": "support.constant.core.rust",
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
@@ -2045,13 +2061,13 @@
 		{
 			"scope": "variable.language.arguments",
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
 			"scope": "variable.language.this.cpp",
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
@@ -2063,7 +2079,7 @@
 		{
 			"scope": "variable.other.constant",
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
@@ -2081,7 +2097,7 @@
 		{
 			"scope": "variable.other.enummember",
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
@@ -2112,7 +2128,7 @@
 				"source.ruby variable.other.readwrite.class.ruby"
 			],
 			"settings": {
-				"foreground": "#9D93ED"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
