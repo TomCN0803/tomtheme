@@ -928,6 +928,17 @@
 			}
 		},
 		{
+			"scope": [
+				"string.quoted.docstring.multi",
+				"string.quoted.docstring.multi.python punctuation.definition.string.begin",
+				"string.quoted.docstring.multi.python punctuation.definition.string.end",
+				"string.quoted.docstring.multi.python constant.character.escape"
+			],
+			"settings": {
+				"foreground": "#7E8392"
+			}
+		},
+		{
 			"scope": "constant",
 			"settings": {
 				"foreground": "#BD93F9"
@@ -1484,12 +1495,6 @@
 			],
 			"settings": {
 				"foreground": "#BD93F9"
-			}
-		},
-		{
-			"scope": "punctuation",
-			"settings": {
-				"foreground": "#8B888F"
 			}
 		},
 		{
