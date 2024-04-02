@@ -1560,10 +1560,15 @@
 				"punctuation.definition.parameters.end",
 				"punctuation.separator.parameter",
 				"punctuation.accessor",
-				"punctuation.terminator"
 			],
 			"settings": {
 				"foreground": "#8B888F"
+			}
+		},
+		{
+			"scope": "punctuation.terminator",
+			"settings": {
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
