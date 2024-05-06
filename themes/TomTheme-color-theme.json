@@ -16,6 +16,10 @@
 			"fontStyle": "italic underline"
 		},
 		"function.defaultLibrary:go": "#66daff",
+		"type.defaultLibrary:go": {
+			"foreground": "#66daff",
+			"fontStyle": ""
+		},
 	},
 	"colors": {
 		"activityBar.activeBackground": "#36394700",
