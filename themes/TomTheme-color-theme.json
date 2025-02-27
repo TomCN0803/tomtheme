@@ -20,6 +20,7 @@
 			"foreground": "#66daff",
 			"fontStyle": ""
 		},
+		"string.format:go": "#BD93F9",
 	},
 	"colors": {
 		"activityBar.activeBackground": "#36394700",
